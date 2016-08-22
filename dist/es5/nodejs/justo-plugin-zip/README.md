@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/justojsp/justo-plugin-zip.svg?branch=master)](https://travis-ci.org/justojsp/justo-plugin-zip)
+[![NPM version](http://img.shields.io/npm/v/justo-plugin-zip.svg)](https://www.npmjs.org/package/justo-plugin-zip)
+[![Build Status](https://travis-ci.org/justojsp/justo-plugin-zip.svg)](https://travis-ci.org/justojsp/justo-plugin-zip)
+[![Dependency Status](https://david-dm.org/justojsp/justo-plugin-zip.svg)](https://david-dm.org/justojsp/justo-plugin-zip)
+[![devDependency Status](https://david-dm.org/justojsp/justo-plugin-zip/dev-status.svg)](https://david-dm.org/justojsp/justo-plugin-zip#info=devDependencies)
 
 Task to zip.
 

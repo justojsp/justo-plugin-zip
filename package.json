@@ -1,6 +1,6 @@
 {
   "name": "justo-plugin-zip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple task to zip.",
   "homepage": "http://www.justojs.org",
   "author": {
@@ -44,8 +44,8 @@
     "justo-assert": "*",
     "justo-assert-fs": "*",
     "justo-plugin-babel": "*",
+    "justo-plugin-eslint": "*",
     "justo-plugin-fs": "*",
-    "justo-plugin-jshint": "*",
     "justo-plugin-npm": "*"
   },
   "main": "index.js",

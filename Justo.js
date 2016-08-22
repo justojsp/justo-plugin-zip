@@ -4,7 +4,7 @@ const catalog = justo.catalog;
 const babel = require("justo-plugin-babel");
 const clean = require("justo-plugin-fs").clean;
 const copy = require("justo-plugin-fs").copy;
-const jshint = require("justo-plugin-jshint");
+const eslint = require("justo-plugin-eslint");
 const publish = require("justo-plugin-npm").publish;
 
 //catalog
@@ -13,10 +13,11 @@ catalog.workflow({name: "build", desc: "Build the package."}, function() {
     dirs: ["build/es5"]
   });
 
-  jshint("Best practices", {
+  eslint("Best practices and grammar", {
     output: true,
     src: [
       "index.js",
+      "Justo.js",
       "lib/op.js",
     ]
   });
@@ -27,7 +28,7 @@ catalog.workflow({name: "build", desc: "Build the package."}, function() {
     preset: "es2015",
     files: [
       {src: "index.js", dst: "build/es5/"},
-      {src: "lib/", dst: "build/es5/lib/"}
+      {src: "lib/", dst: "build/es5/lib"}
     ]
   });
 
